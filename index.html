@@ -4,8 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    
+    <header class="bg-[url('images/shaadi-desktop-banner-v1')] bg-[red]">
+        <nav class="flex justify-between items-center">
+            <div class="figure">
+                <img src="images/Matrimony-Service-by-Shaadi.com.png" alt="">
+            </div>
+            <div>
+                <ul class="flex">
+                    <li>login</li>
+                    <li>Help</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 </body>
 </html>
